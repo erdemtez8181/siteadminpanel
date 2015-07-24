@@ -1146,6 +1146,22 @@
       <DependentUpon>AbandonSession.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="Business\CryptoHelper.cs" />
+    <Compile Include="Business\Functions.cs" />
+    <Compile Include="Business\GlobalEnum.cs" />
+    <Compile Include="Business\Globalsettings.cs" />
+    <Compile Include="Business\LicenceHelper.cs" />
+    <Compile Include="Data\cls_Partner.cs" />
+    <Compile Include="Data\DashboardEinvoiceMail.cs" />
+    <Compile Include="Data\DashboardLog.cs" />
+    <Compile Include="Data\DashboardUser.cs" />
+    <Compile Include="Data\DashboardUserRights.cs" />
+    <Compile Include="Data\DataHelper.cs" />
+    <Compile Include="Data\DataStoreServices.cs" />
+    <Compile Include="Data\dbProcess.cs" />
+    <Compile Include="Data\entity.cs" />
+    <Compile Include="Data\NullValue.cs" />
+    <Compile Include="Data\ParameterValues.cs" />
     <Compile Include="Makbuzlar.aspx.cs">
       <DependentUpon>Makbuzlar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
