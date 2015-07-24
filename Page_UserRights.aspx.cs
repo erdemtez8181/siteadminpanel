@@ -1,22 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
-using System.Data.SqlClient;
-using System.Data.Common;
-using System.Data;
-using BusinessObjects;
-using ServiceLibrary;
-using System.Text.RegularExpressions;
-using AdminPanel;
-using Siteyonetim.Framework.Data;
 using Siteyonetim.Framework.Data;
 using Siteyonetim.Framework.Business;
-using Siteyonetim.Framework.Business;
-using Siteyonetim.Framework.Data;
 using System.Drawing;
 
 

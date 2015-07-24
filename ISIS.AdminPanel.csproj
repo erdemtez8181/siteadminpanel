@@ -51,18 +51,9 @@
     <Reference Include="AjaxMin">
       <HintPath>..\packages\AjaxMin.4.97.4951.28483\lib\net40\AjaxMin.dll</HintPath>
     </Reference>
-    <Reference Include="BusinessObjects">
-      <HintPath>..\SolutionItems\connector\BusinessObjects.dll</HintPath>
-    </Reference>
-    <Reference Include="ConnectorBusiness">
-      <HintPath>..\SolutionItems\connector\ConnectorBusiness.dll</HintPath>
-    </Reference>
     <Reference Include="EPPlus, Version=3.1.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\EPPlus.dll</HintPath>
-    </Reference>
-    <Reference Include="ISIS.Portal">
-      <HintPath>..\Einvoice.Portal\obj\x64\Debug\ISIS.Portal.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -72,9 +63,6 @@
     <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
-    </Reference>
-    <Reference Include="ServiceLibrary">
-      <HintPath>..\SolutionItems\connector\ServiceLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -110,9 +98,6 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="UtilityLayer">
-      <HintPath>..\SolutionItems\connector\UtilityLayer.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AbandonSession.aspx" />

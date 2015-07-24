@@ -1,29 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Text;
-using System.Collections;
-using System.Runtime.Remoting.Contexts;
-using System.Web.Caching;
-using System.Web.Services;
-using System.Web.Security;
-using System.Drawing;
-using System.IO;
 using System.Web.UI.HtmlControls;
 using Siteyonetim.Framework.Data;
 using Siteyonetim.Framework.Business;
-using ServiceLibrary;
-using BusinessObjects;
 using System.Web.Configuration;
-using System.Management;
 using System.ServiceProcess;
 using System.Net.Mail;
-using System.Web.Security;
-using Siteyonetim.Framework.Data;
-using Siteyonetim.Framework.Data;
 
 namespace AdminPanel
 {
@@ -51,10 +34,7 @@ namespace AdminPanel
 
             /// ----------------------------------------------------------------------------------------------------------
             DisablePageCaching();
-            IInboxManagerService objIMS = WCFProxy.Proxy<IInboxManagerService>();
-            IOutboxManagerService objOms = WCFProxy.Proxy<IOutboxManagerService>();
-            ((HtmlGenericControl)this.Page.Master.FindControl("spDatabaseWarningCount")).Attributes.Add("class", "");
-
+            
             //lblInboxErrorCount.Text = Convert.ToString(objIMS.GetErrorCount());
             //lblOutboxErrorCount.Text = Convert.ToString(objOms.GetErrorCount());
             //this.btnDashboard.Attributes.Add("class", "start active");
