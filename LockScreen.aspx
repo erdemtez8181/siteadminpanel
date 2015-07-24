@@ -4,11 +4,11 @@
 <html lang="en" class="no-js">
 <head>
     <meta charset="utf-8" />
-    <title>KOiS | Admin Dashboard Panel</title>
+    <title>Site Yönetim | Admin Dashboard Panel</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
-    <meta content="KOiS Admin panel" name="author" />
+    <meta content="Site Yönetim Admin panel" name="author" />
     <!-- Mobile Uyumluluk -->
     <meta name="MobileOptimized" content="320">
     <!-- Mobile Uyumluluk -->
@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="assets/plugins/select2/select2_metro.css" />
 
     <!-- Tema CSS'leri başlıyor -->
-    <link href="assets/css/style-kois.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-siteyönetim.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
@@ -36,7 +36,7 @@
     <div class="page-lock">
         <div class="page-logo">
             <a class="brand" href="Default.aspx">
-                <img src="assets/img/kois.png" alt="logo" />
+                <img src="assets/img/siteyonetim.png" alt="logo" />
             </a>
         </div>
         <div class="page-body">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="copyright">
-            2014 KOis Yönetim Paneli
+            2014 Site Yönetim Yönetim Paneli
         </div>
     </div>
     <script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>

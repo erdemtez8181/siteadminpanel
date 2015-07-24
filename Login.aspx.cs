@@ -87,7 +87,7 @@ namespace AdminPanel
                     mesaj.From = new MailAddress(Sender_Address, "Admin", System.Text.Encoding.UTF8);//nesnenin alanlarina gerekli bilgilerin atanmasi
                     SmtpClient smtp = new SmtpClient();
                     mesaj.To.Add(this.txtemail.Value);
-                    mesaj.Subject = "KOis Dashboard - Şifre Hatırlatması";
+                    mesaj.Subject = "Site Yönetim Dashboard - Şifre Hatırlatması";
                     mesaj.IsBodyHtml = true;
                     mesaj.BodyEncoding = System.Text.Encoding.UTF8;
                     mesaj.Body = MessageBody;

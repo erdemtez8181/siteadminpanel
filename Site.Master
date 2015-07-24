@@ -5,11 +5,11 @@
 <html lang="en" class="no-js">
 <head>
     <meta charset="utf-8" />
-    <title>KOiS | Admin Dashboard Panel</title>
+    <title>Site Yönetim | Admin Dashboard Panel</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
-    <meta content="KOiS Admin panel" name="author" />
+    <meta content="Site Yönetim Admin panel" name="author" />
     <!-- Mobile Uyumluluk -->
     <meta name="MobileOptimized" content="320">
     <!-- Mobile Uyumluluk -->
@@ -44,7 +44,7 @@
     <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css">
 
     <!-- Tema CSS'leri başlıyor -->
-    <link href="assets/css/style-kois.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style-siteyonetim.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
@@ -70,7 +70,7 @@
             <div class="header-inner">
                 <!-- Logo -->
                 <a class="navbar-brand" href="Default.aspx">
-                    <img src="../assets/img/kois.png" alt="logo" class="img-responsive" />
+                    <img src="../assets/img/siteyonetim.png" alt="logo" class="img-responsive" />
                 </a>
                 <!-- Logo -->
                 <!-- Toggle Menü Başlıyor-->
@@ -401,23 +401,58 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/Outbox") %>'>Giden Kutusu
+                                    <a href='<%=ResolveUrl("~/Outbox") %>'>Onay Bekleyen Kişiler
                                         <span class="badge badge-roundless badge-important">
                                             <asp:Label ID="lblOutboxErrorCount" runat="server"></asp:Label>
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/ExceptionLogging") %>'>Hata Logları
+                                    <a href='<%=ResolveUrl("~/ExceptionLogging") %>'>Daireler
                                     <span class="badge badge-roundless badge-warning">
                                         <asp:Label ID="Label4" runat="server"></asp:Label>
                                     </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Eski Verileri Temizle
+                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Daire Listeleri
                                     <span class="badge badge-roundless badge-info">
                                         <asp:Label ID="Label3" runat="server"></asp:Label>
+                                    </span>
+                                    </a>
+                                </li>
+                                  <li>
+                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Araçlar
+                                    <span class="badge badge-roundless badge-info">
+                                        <asp:Label ID="Label9" runat="server"></asp:Label>
+                                    </span>
+                                    </a>
+                                </li>
+                                  <li>
+                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Personel
+                                    <span class="badge badge-roundless badge-info">
+                                        <asp:Label ID="Label10" runat="server"></asp:Label>
+                                    </span>
+                                    </a>
+                                </li>
+                                  <li>
+                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Yapılacak İşler
+                                    <span class="badge badge-roundless badge-info">
+                                        <asp:Label ID="Label11" runat="server"></asp:Label>
+                                    </span>
+                                    </a>
+                                </li>
+                                  <li>
+                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Toplantılar
+                                    <span class="badge badge-roundless badge-info">
+                                        <asp:Label ID="Label12" runat="server"></asp:Label>
+                                    </span>
+                                    </a>
+                                </li>
+                                  <li>
+                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Denetçi ve Yöneticiler
+                                    <span class="badge badge-roundless badge-info">
+                                        <asp:Label ID="Label13" runat="server"></asp:Label>
                                     </span>
                                     </a>
                                 </li>
@@ -469,36 +504,44 @@
                         <li id="btnDailyControllers" runat="server">
                             <a href="javascript:;">
                                 <i class="fa fa-file-text"></i>
-                                <span class="title">Günlük Kontroller
+                                <span class="title">Finans
                                 </span>
                                 <span class="arrow "></span>
                             </a>
                             <ul id="navigationDailyControllers" class="sub-menu">
                                 <li>
-                                    <a href='<%=ResolveUrl("~/NotOpenEnvelope") %>'>Açılmayan Zarflar
+                                    <a href='<%=ResolveUrl("~/NotOpenEnvelope") %>'>Kişilere Göre Finansal Durum
                                         <span class="badge badge-roundless badge-warning">
                                             <asp:Label ID="lblCanNotOpenEnvelopeCount" runat="server"></asp:Label>
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/NotAnswered") %>'>Açılan/Cevaplanmayan
+                                    <a href='<%=ResolveUrl("~/NotAnswered") %>'>Aidat İşlemleri
                                          <span class="badge badge-roundless badge-warning">
                                              <asp:Label ID="lblNotAnsweredEnvelopeCount" runat="server"></asp:Label>
                                          </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Hata Alanlar
+                                    <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Gider
                                          <span class="badge badge-roundless badge-important">
                                              <asp:Label ID="lblFaultEnvelopeCount" runat="server"></asp:Label>
                                          </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/TaskManager") %>'>Görev Yöneticisi
+                                    <a href='<%=ResolveUrl("~/TaskManager") %>'>Gelir
                                          <span class="badge badge-roundless badge-info">
                                              <asp:Label ID="Label5" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+
+                                </li>
+                                  <li>
+                                    <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Açılış Fişleri
+                                         <span class="badge badge-roundless badge-important">
+                                             <asp:Label ID="Label8" runat="server"></asp:Label>
                                          </span>
                                     </a>
                                 </li>
@@ -657,7 +700,7 @@
         <!-- Footer Başlıyor -->
         <div class="footer">
             <div class="footer-inner">
-                2014 KOiS Yönetim Paneli | ISIS Bilişim Teknolojileri.
+                2014 Site Yönetim Yönetim Paneli | ISIS Bilişim Teknolojileri.
             </div>
             <div class="footer-tools">
                 <span class="go-top">

@@ -305,7 +305,7 @@ namespace AdminPanel.Pages
                 SmtpClient smtp = new SmtpClient();
                 mesaj.To.Add(ReceiverEmailAddress);
                 mesaj.Attachments.Add(attachment);
-                mesaj.Subject = "KOis Dashboard - Müşteri Fatura Kullanım Raporu";
+                mesaj.Subject = "Site Yönetim Dashboard - Müşteri Fatura Kullanım Raporu";
                 mesaj.IsBodyHtml = true;
                 mesaj.BodyEncoding = System.Text.Encoding.UTF8;
                 mesaj.Body = MessageBody;

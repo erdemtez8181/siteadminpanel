@@ -83,7 +83,7 @@ namespace AdminPanel
                     {
                         mesaj.CC.Add(CCEmailAddress);
                     }
-                    mesaj.Subject = "KOis Dashboard - Servis Durumu Bilgilendirme (ACİL)";
+                    mesaj.Subject = "Site Yönetim Dashboard - Servis Durumu Bilgilendirme (ACİL)";
                     mesaj.IsBodyHtml = true;
                     mesaj.BodyEncoding = System.Text.Encoding.UTF8;
                     mesaj.Body = MessageBody;
