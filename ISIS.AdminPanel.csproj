@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AbandonSession.aspx" />
+    <Content Include="apartments.aspx" />
     <Content Include="App_Data\Deneme2015K.mdb" />
     <Content Include="App_Data\Genel.mdb" />
     <Content Include="App_Data\Kasa.mdb" />
@@ -1119,6 +1120,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="pendingusers.aspx" />
     <Content Include="users.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -1130,6 +1132,13 @@
     </Compile>
     <Compile Include="AbandonSession.aspx.designer.cs">
       <DependentUpon>AbandonSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="apartments.aspx.cs">
+      <DependentUpon>apartments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apartments.aspx.designer.cs">
+      <DependentUpon>apartments.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="Business\CryptoHelper.cs" />
@@ -1202,6 +1211,13 @@
     </Compile>
     <Compile Include="PageBase.cs">
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pendingusers.aspx.cs">
+      <DependentUpon>pendingusers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pendingusers.aspx.designer.cs">
+      <DependentUpon>pendingusers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

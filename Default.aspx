@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-12">
             <!--Navigasyon başlıyor-->
-            <h3 class="page-title">Gösterge Paneli <small>ve Yönetim Ekranları</small>
+            <h3 class="page-title">Site Yönetimi <small>ve Yönetim Ekranları</small>
             </h3>
             <ul class="page-breadcrumb breadcrumb">
                 <li>
@@ -17,7 +17,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="#">Gösterge Paneli</a>
+                    <a href="#">Site Yönetimi</a>
                 </li>
             </ul>
             <!-- Navigasyon bitti-->
