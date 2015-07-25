@@ -416,46 +416,46 @@
                                        </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Daire Listeleri
-                                    <span class="badge badge-roundless badge-info">
-                                        <asp:Label ID="Label3" runat="server"></asp:Label>
-                                    </span>
-                                    </a>
+                                     <a href="apartmentsetup.aspx">Daire Lİsteleri
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label3" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                                   <li>
-                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Araçlar
-                                    <span class="badge badge-roundless badge-info">
-                                        <asp:Label ID="Label9" runat="server"></asp:Label>
-                                    </span>
-                                    </a>
+                                    <a href="vehicle.aspx">Araçlar
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label9" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                                   <li>
-                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Personel
-                                    <span class="badge badge-roundless badge-info">
-                                        <asp:Label ID="Label10" runat="server"></asp:Label>
-                                    </span>
-                                    </a>
+                                    <a href="employee.aspx">Personel
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label10" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                                   <li>
-                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Yapılacak İşler
-                                    <span class="badge badge-roundless badge-info">
-                                        <asp:Label ID="Label11" runat="server"></asp:Label>
-                                    </span>
-                                    </a>
+                                   <a href="tasks.aspx">Yapılacak İşler
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label11" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                                   <li>
-                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Toplantılar
-                                    <span class="badge badge-roundless badge-info">
-                                        <asp:Label ID="Label12" runat="server"></asp:Label>
-                                    </span>
-                                    </a>
+                                   <a href="meetings.aspx">Toplantılar
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label12" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                                   <li>
-                                    <a href='<%=ResolveUrl("~/CleanOldData") %>'>Denetçi ve Yöneticiler
-                                    <span class="badge badge-roundless badge-info">
-                                        <asp:Label ID="Label13" runat="server"></asp:Label>
-                                    </span>
-                                    </a>
+                                    <a href="managers.aspx">Denetçi ve Yöneticiler
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label13" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                             </ul>
                         </li>
@@ -509,114 +509,204 @@
                                 </span>
                                 <span class="arrow "></span>
                             </a>
-                            <ul id="navigationDailyControllers" class="sub-menu">
+                           <ul id="navigation" class="sub-menu">
                                 <li>
-                                    <a href='<%=ResolveUrl("~/NotOpenEnvelope") %>'>Kişilere Göre Finansal Durum
-                                        <span class="badge badge-roundless badge-warning">
-                                            <asp:Label ID="lblCanNotOpenEnvelopeCount" runat="server"></asp:Label>
+                                    <a href="deptsAccount.aspx">Kişilere Göre Finansal Durum
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label22" runat="server"></asp:Label>
                                         </span>
-                                    </a>
+                                       </a>
                                 </li>
                                
                                 <li>
-                                    <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Gider
-                                         <span class="badge badge-roundless badge-important">
-                                             <asp:Label ID="lblFaultEnvelopeCount" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
+                           
+
+                                    <a href="overview.aspx?mid=253">Gider
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label23" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="receipts.aspx?type=1&vtype=41">"Gider Fişi"
+
+                                                <span class="arrow"></span>
+                                            </a>
+                                               </li>
+
+                                             </ul>
+
+                                  
+                                       
+
+
+
+
+
+                                   
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/TaskManager") %>'>Gelir
-                                         <span class="badge badge-roundless badge-info">
-                                             <asp:Label ID="Label5" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
+                                    <a href="overview.aspx?mid=254">Gelir
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label5" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                      <ul class="sub-menu">
+                                        <li>
+                                            <a href="javascript:;">"Gelir Fişi"
+
+                                                <span class="arrow"></span>
+                                            </a>
+                                               </li>
+
+                                             </ul>
 
                                 </li>
                                   <li>
-                                    <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Açılış Fişleri
-                                         <span class="badge badge-roundless badge-important">
-                                             <asp:Label ID="Label8" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
+                                   <a href="overview.aspx?mid=438">Açılış Fişleri
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label8" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                       <ul class="sub-menu">
+                                        <li>
+                                            <a href="javascript:;">"Kasa Açılış Fişi"
+
+                                                <span class="arrow"></span>
+                                            </a>
+                                               </li>
+
+                                             </ul>
+                                       <ul class="sub-menu">
+                                        <li>
+                                            <a href="javascript:;">"Gelir Açılış Fişi"
+
+                                                <span class="arrow"></span>
+                                            </a>
+                                               </li>
+
+                                             </ul>
+                                       <ul class="sub-menu">
+                                        <li>
+                                            <a href="javascript:;">"Gider Açılış Fişi"
+
+                                                <span class="arrow"></span>
+                                            </a>
+                                               </li>
+
+                                             </ul>
                                 </li>
+                                  <li>
+                                   <a href="cashTransfer.aspx">Kasa Transfer Fişi
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label24" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                </li>
+
                             </ul>
-                             <a href="javascript:;">
+                           
+                        </li>
+                        <li id="Li1" runat="server">
+                            <a href="javascript:;">
                                 <i class="fa fa-file-text"></i>
                                 <span class="title">Aidat İşlemleri
                                 </span>
                                 <span class="arrow "></span>
                             </a>
+
                              <ul id="navigationDailyControllers" class="sub-menu">
                                 <li>
-                                    <a href='<%=ResolveUrl("~/NotOpenEnvelope") %>'>Aidat Makbuzları
-                                        <span class="badge badge-roundless badge-warning">
+                                    <a href="subscriptions.aspx">Aidat Makbuzları
+                                        <span class="badge badge-roundless badge-important">
                                             <asp:Label ID="Label14" runat="server"></asp:Label>
                                         </span>
-                                    </a>
+                                       </a>
                                 </li>
                                
                                 <li>
-                                    <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Aidat Tahsilatı
-                                         <span class="badge badge-roundless badge-important">
-                                             <asp:Label ID="Label15" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
+                                    <a href="subscriptionPayment.aspx">Aidat Taslihatı
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label15" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/TaskManager") %>'>Aidat İadesi
-                                         <span class="badge badge-roundless badge-info">
-                                             <asp:Label ID="Label16" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
+                                     <a href="refund.aspx">Aidat İadesi
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label16" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
 
                                 </li>
                                   <li>
-                                    <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Devir Borç Girişi
-                                         <span class="badge badge-roundless badge-important">
-                                             <asp:Label ID="Label17" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
-                                       <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Toplu Aidat Borçlandır
-                                         <span class="badge badge-roundless badge-important">
-                                             <asp:Label ID="Label18" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
-                                       <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Excelden Borç Yükleme
-                                         <span class="badge badge-roundless badge-important">
-                                             <asp:Label ID="Label19" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
-                                       <a href='<%=ResolveUrl("~/FaultEnvelopes") %>'>Toplu Aidat Tahsilatı
-                                         <span class="badge badge-roundless badge-important">
-                                             <asp:Label ID="Label20" runat="server"></asp:Label>
-                                         </span>
-                                    </a>
+                                    <a href="profileOpening.aspx">Devir Borç Girişi
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label17" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                      <a href="subscriptionDistribute.aspx">Toplu Aidat Borçlandır
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label18" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                     <a href="importFile.aspx">Excelden Borç Yükleme
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label19" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                      <a href="batchsubscriptionpayment.aspx">Toplu Aidat Tahsilatı
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label20" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
                                 </li>
                             </ul>
-                        </li>
+
+
+
+
+
+
+                            </li>
+
                         <li id="btnDefineCustomer" runat="server">
                             <a href="javascript:;">
                                 <i class="fa fa-cloud-download "></i>
-                                <span class="title">Yeni Müsteri Tanımı
+                                <span class="title">Raporlar
                                 </span>
                                 <span class="arrow "></span>
                             </a>
                             <ul id="navigationDefineCustomer" class="sub-menu">
                                 <li>
-                                    <a href='<%=ResolveUrl("~/CreateInvoiceCustomer") %>'>E-Fatura
-                                        <span class="badge badge-roundless badge-info">
+                                    <a href="overview.aspx?mid=256">Listeler
+                                        <span class="badge badge-roundless badge-important">
                                             <asp:Label ID="Label6" runat="server"></asp:Label>
                                         </span>
-                                    </a>
+                                       </a>
                                 </li>
                                 <li>
-                                    <a href='<%=ResolveUrl("~/CreateLedgerCustomer") %>'>E-Defter
+                                    <a href="overview.aspx?mid=257">Ekstreler
                                          <span class="badge badge-roundless badge-info">
                                              <asp:Label ID="Label7" runat="server"></asp:Label>
                                          </span>
                                     </a>
                                 </li>
+                                 <li>
+                                    <a href="overview.aspx?mid=258">Dökümler
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label25" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="overview.aspx?mid=259">İletişim
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label26" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li id="btnConnectorTool" runat="server" visible="false">
@@ -632,18 +722,145 @@
                                 </li>
                             </ul>
                         </li>
-                        <li id="btnGibTool" runat="server">
-                            <a href='<%=ResolveUrl("~/ApplicationResponse") %>'>
-                                <i class="fa fa-money"></i>
-                                <span class="title">Zarf Sorgulama
+                         <li id="Li2" runat="server">
+                            <a href="javascript:;">
+                                <i class="fa fa-cloud-download "></i>
+                                <span class="title">Tanımlar
                                 </span>
-                                <span class="selected"></span>
+                                <span class="arrow "></span>
                             </a>
+                            <ul id="navigationDefineCustomer" class="sub-menu">
+                                <li>
+                                    <a href="blocks.aspx">Bloklar
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label27" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                </li>
+                                <li>
+                                    <a href="apartmentGroups.aspx">Daire Grupları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label28" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="apartmentTypes.aspx">Daire Tipleri
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label29" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="cash.aspx">Kasa Ve Banka Tanımları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label30" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="icGroup.aspx?type=1">Gider Grupları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label31" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="costDefinitions.aspx">Gider Tanımları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label32" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                  <li>
+                                    <a href="icGroup.aspx?type=0">Gelir Grupları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label33" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="incomeDefinitions.aspx">Gelir Tanımları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label34" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                          <li id="Li3" runat="server">
+                            <a href="javascript:;">
+                                <i class="fa fa-cloud-download "></i>
+                                <span class="title">İletişim
+                                </span>
+                                <span class="arrow "></span>
+                            </a>
+                            <ul id="navigationDefineCustomer" class="sub-menu">
+                                <li>
+                                    <a href="notifiermail.aspx">E-Posta ile Bildirim
+                                        <span class="badge badge-roundless badge-important">
+                                            <asp:Label ID="Label35" runat="server"></asp:Label>
+                                        </span>
+                                       </a>
+                                </li>
+                                <li>
+                                    <a href="notifyTemplates.aspx?type=1">E-Posta Şablonları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label36" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="notifiersms.aspx">Sms ile Bildirim
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label37" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="smsStatus.aspx">Sms Durum
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label38" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="notifyTemplates.aspx">Sms Şablonları
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label39" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="inbox.aspx">Mesajlar
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label40" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                  <li>
+                                    <a href="feedback.aspx">Geri Bildirim
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label41" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a href="phoneIndex.aspx">Telefon Rehberi
+                                         <span class="badge badge-roundless badge-info">
+                                             <asp:Label ID="Label42" runat="server"></asp:Label>
+                                         </span>
+                                    </a>
+                                </li>
+                               <%-- yardım kısmını yapamadım.gelir ve giderde bi sıkıntı var--%>
+
+                            </ul>
                         </li>
                         <li id="btnUserRights" runat="server">
                             <a href='<%=ResolveUrl("~/UserRoles") %>'>
                                 <i class="fa fa-barcode"></i>
-                                <span class="title">Yetkilendirme
+                                <span class="title">Yardım
                                 </span>
                                 <span class="selected"></span>
                             </a>

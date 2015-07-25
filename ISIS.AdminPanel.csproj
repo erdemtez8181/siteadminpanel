@@ -101,7 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AbandonSession.aspx" />
+    <Content Include="apartmentGroups.aspx" />
     <Content Include="apartments.aspx" />
+    <Content Include="apartmentsetup.aspx" />
+    <Content Include="apartmentTypes.aspx" />
     <Content Include="App_Data\Deneme2015K.mdb" />
     <Content Include="App_Data\Genel.mdb" />
     <Content Include="App_Data\Kasa.mdb" />
@@ -1111,7 +1114,25 @@
     <Content Include="assets\scripts\search.js" />
     <Content Include="assets\scripts\table-editable.js" />
     <Content Include="assets\scripts\tasks.js" />
+    <Content Include="batchsubscriptionpayment.aspx" />
+    <Content Include="blocks.aspx" />
+    <Content Include="cash.aspx" />
+    <Content Include="cashTransfer.aspx" />
+    <Content Include="costDefinitions.aspx" />
+    <Content Include="deptsAccount.aspx" />
+    <Content Include="employee.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="icGroup.aspx" />
+    <Content Include="importFile.aspx" />
+    <Content Include="inbox.aspx" />
+    <Content Include="incomeDefinitions.aspx" />
     <Content Include="Makbuzlar.aspx" />
+    <Content Include="managers.aspx" />
+    <Content Include="meetings.aspx" />
+    <Content Include="notifiermail.aspx" />
+    <Content Include="notifiersms.aspx" />
+    <Content Include="notifyTemplates.aspx" />
+    <Content Include="overview.aspx" />
     <Content Include="Page_UserRights.aspx" />
     <Content Include="Page_Documentation.aspx" />
     <Content Include="Global.asax" />
@@ -1121,7 +1142,17 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="pendingusers.aspx" />
+    <Content Include="phoneIndex.aspx" />
+    <Content Include="profileOpening.aspx" />
+    <Content Include="receipts.aspx" />
+    <Content Include="refund.aspx" />
+    <Content Include="smsStatus.aspx" />
+    <Content Include="subscriptionDistribute.aspx" />
+    <Content Include="subscriptionPayment.aspx" />
+    <Content Include="subscriptions.aspx" />
+    <Content Include="tasks.aspx" />
     <Content Include="users.aspx" />
+    <Content Include="vehicle.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -1133,6 +1164,13 @@
     <Compile Include="AbandonSession.aspx.designer.cs">
       <DependentUpon>AbandonSession.aspx</DependentUpon>
     </Compile>
+    <Compile Include="apartmentGroups.aspx.cs">
+      <DependentUpon>apartmentGroups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apartmentGroups.aspx.designer.cs">
+      <DependentUpon>apartmentGroups.aspx</DependentUpon>
+    </Compile>
     <Compile Include="apartments.aspx.cs">
       <DependentUpon>apartments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1140,12 +1178,61 @@
     <Compile Include="apartments.aspx.designer.cs">
       <DependentUpon>apartments.aspx</DependentUpon>
     </Compile>
+    <Compile Include="apartmentsetup.aspx.cs">
+      <DependentUpon>apartmentsetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apartmentsetup.aspx.designer.cs">
+      <DependentUpon>apartmentsetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="apartmentTypes.aspx.cs">
+      <DependentUpon>apartmentTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apartmentTypes.aspx.designer.cs">
+      <DependentUpon>apartmentTypes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="batchsubscriptionpayment.aspx.cs">
+      <DependentUpon>batchsubscriptionpayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="batchsubscriptionpayment.aspx.designer.cs">
+      <DependentUpon>batchsubscriptionpayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="blocks.aspx.cs">
+      <DependentUpon>blocks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blocks.aspx.designer.cs">
+      <DependentUpon>blocks.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Business\CryptoHelper.cs" />
     <Compile Include="Business\Functions.cs" />
     <Compile Include="Business\GlobalEnum.cs" />
     <Compile Include="Business\Globalsettings.cs" />
     <Compile Include="Business\LicenceHelper.cs" />
+    <Compile Include="cash.aspx.cs">
+      <DependentUpon>cash.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cash.aspx.designer.cs">
+      <DependentUpon>cash.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cashTransfer.aspx.cs">
+      <DependentUpon>cashTransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cashTransfer.aspx.designer.cs">
+      <DependentUpon>cashTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="costDefinitions.aspx.cs">
+      <DependentUpon>costDefinitions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="costDefinitions.aspx.designer.cs">
+      <DependentUpon>costDefinitions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Data\cls_Partner.cs" />
     <Compile Include="Data\DashboardEinvoiceMail.cs" />
     <Compile Include="Data\DashboardLog.cs" />
@@ -1157,12 +1244,103 @@
     <Compile Include="Data\entity.cs" />
     <Compile Include="Data\NullValue.cs" />
     <Compile Include="Data\ParameterValues.cs" />
+    <Compile Include="deptsAccount.aspx.cs">
+      <DependentUpon>deptsAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deptsAccount.aspx.designer.cs">
+      <DependentUpon>deptsAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="employee.aspx.cs">
+      <DependentUpon>employee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="employee.aspx.designer.cs">
+      <DependentUpon>employee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="icGroup.aspx.cs">
+      <DependentUpon>icGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="icGroup.aspx.designer.cs">
+      <DependentUpon>icGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="importFile.aspx.cs">
+      <DependentUpon>importFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="importFile.aspx.designer.cs">
+      <DependentUpon>importFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inbox.aspx.cs">
+      <DependentUpon>inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inbox.aspx.designer.cs">
+      <DependentUpon>inbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="incomeDefinitions.aspx.cs">
+      <DependentUpon>incomeDefinitions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="incomeDefinitions.aspx.designer.cs">
+      <DependentUpon>incomeDefinitions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Makbuzlar.aspx.cs">
       <DependentUpon>Makbuzlar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Makbuzlar.aspx.designer.cs">
       <DependentUpon>Makbuzlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="managers.aspx.cs">
+      <DependentUpon>managers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="managers.aspx.designer.cs">
+      <DependentUpon>managers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="meetings.aspx.cs">
+      <DependentUpon>meetings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="meetings.aspx.designer.cs">
+      <DependentUpon>meetings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notifiermail.aspx.cs">
+      <DependentUpon>notifiermail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notifiermail.aspx.designer.cs">
+      <DependentUpon>notifiermail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notifiersms.aspx.cs">
+      <DependentUpon>notifiersms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notifiersms.aspx.designer.cs">
+      <DependentUpon>notifiersms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notifyTemplates.aspx.cs">
+      <DependentUpon>notifyTemplates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notifyTemplates.aspx.designer.cs">
+      <DependentUpon>notifyTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="overview.aspx.cs">
+      <DependentUpon>overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="overview.aspx.designer.cs">
+      <DependentUpon>overview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page_UserRights.aspx.cs">
       <DependentUpon>Page_UserRights.aspx</DependentUpon>
@@ -1219,7 +1397,35 @@
     <Compile Include="pendingusers.aspx.designer.cs">
       <DependentUpon>pendingusers.aspx</DependentUpon>
     </Compile>
+    <Compile Include="phoneIndex.aspx.cs">
+      <DependentUpon>phoneIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="phoneIndex.aspx.designer.cs">
+      <DependentUpon>phoneIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="profileOpening.aspx.cs">
+      <DependentUpon>profileOpening.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profileOpening.aspx.designer.cs">
+      <DependentUpon>profileOpening.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="receipts.aspx.cs">
+      <DependentUpon>receipts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="receipts.aspx.designer.cs">
+      <DependentUpon>receipts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="refund.aspx.cs">
+      <DependentUpon>refund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="refund.aspx.designer.cs">
+      <DependentUpon>refund.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1227,12 +1433,54 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="smsStatus.aspx.cs">
+      <DependentUpon>smsStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="smsStatus.aspx.designer.cs">
+      <DependentUpon>smsStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subscriptionDistribute.aspx.cs">
+      <DependentUpon>subscriptionDistribute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subscriptionDistribute.aspx.designer.cs">
+      <DependentUpon>subscriptionDistribute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subscriptionPayment.aspx.cs">
+      <DependentUpon>subscriptionPayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subscriptionPayment.aspx.designer.cs">
+      <DependentUpon>subscriptionPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subscriptions.aspx.cs">
+      <DependentUpon>subscriptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subscriptions.aspx.designer.cs">
+      <DependentUpon>subscriptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tasks.aspx.cs">
+      <DependentUpon>tasks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tasks.aspx.designer.cs">
+      <DependentUpon>tasks.aspx</DependentUpon>
+    </Compile>
     <Compile Include="users.aspx.cs">
       <DependentUpon>users.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="users.aspx.designer.cs">
       <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vehicle.aspx.cs">
+      <DependentUpon>vehicle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vehicle.aspx.designer.cs">
+      <DependentUpon>vehicle.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
